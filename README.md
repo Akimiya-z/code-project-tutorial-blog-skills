@@ -4,6 +4,16 @@ Two Codex skills for turning a finished coding session into a tutorial blog post
 
 This repo is intentionally separate from any personal site or machine-specific setup. The skills resolve the target blog project from a small config file inside the blog repo, so other people can reuse them without editing hard-coded absolute paths.
 
+## Reference
+
+This workflow is mainly inspired by Gexijin's article [Building Tutorial Library with Slash Commands](https://gexijin.github.io/vibe/Building_Tutorial_Library_with_Slash_Commands).
+
+The main adaptation here is scope and runtime:
+
+- Gexijin's original workflow is built around Claude Code slash commands such as `/tutorial` and `/review-tutorial`
+- This repo adapts the same multi-phase idea to Codex skills
+- The target use case here is narrower: post-project tutorial blog posts for coding projects, not a full beginner tutorial library
+
 ## Included skills
 
 - `code-project-tutorial-generator`
