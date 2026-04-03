@@ -1,0 +1,4 @@
+interface:
+  display_name: "代码项目教程审查器"
+  short_description: "按固定清单审查代码项目教程博客的完整性、可执行性与准确性"
+  default_prompt: "Use $review-code-project-tutorial 审查这篇代码项目教程博客，先列问题；如果我要求可直接整理成发布版。"

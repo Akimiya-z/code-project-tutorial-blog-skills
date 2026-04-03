@@ -1,0 +1,4 @@
+interface:
+  display_name: "代码项目教程生成器"
+  short_description: "把代码项目协作过程整理成可发布、可复现的教程博客正文"
+  default_prompt: "Use $code-project-tutorial-generator 把这次代码项目过程整理成教程博客，先给提纲，再生成正文。"

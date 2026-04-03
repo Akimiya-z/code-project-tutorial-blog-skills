@@ -1,0 +1,9 @@
+{
+  "siteType": "astro-content-blog",
+  "contentDir": "src/content/blog",
+  "summaryDir": "tutorial-sources",
+  "articleFileName": "index.md",
+  "requiredFrontmatter": ["title", "description", "publishDate"],
+  "optionalFrontmatter": ["updatedDate", "tags", "language"],
+  "defaultLanguage": "中文"
+}
